@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="gallery">
+        <div class="gallery-thumbnails">
+          <img src="Images/th4.jpg" alt="Image 1" class="thumbnail">
+          <img src="Images/th3.jpg" alt="Image 2" class="thumbnail">
+          <img src="Images/th2.jpg" alt="Image 3" class="thumbnail">
+        </div>
+        <div class="gallery-main">
+          <img src="Images/th4.jpg" alt="Image 1" id="main-image">
+          <div class="gallery-info">
+            <h2>Nature</h2>
+            <p>Peaceful Lake: Still waters reflect the surrounding landscape, <br>creating a mirror-like effect, with a sense of calm and tranquility.
+            </p>
+          </div>
+        </div>
+        <div class="gallery-nav">
+          <button id="prev">
+            <svg width="24" height="24" viewBox="0 0 24 24">
+              <path d="M16.67 0.62L15.14 1.13 8.77 8 15.14 14.88 16.67 15.38 10 24 0 12 10 0 16.67 0.62Z" />
+            </svg>
+          </button>
+          <button id="next">
+            <svg width="24" height="24" viewBox="0 0 24 24">
+              <path d="M7.33 0.62L8.86 1.13 15.23 8 8.86 14.88 7.33 15.38 14 24 24 12 14 0 7.33 0.62Z" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      
+      
+    <script src="script.js"></script>
+</body>
+</html>
